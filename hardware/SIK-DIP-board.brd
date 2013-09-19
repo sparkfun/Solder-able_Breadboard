@@ -942,6 +942,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <rectangle x1="68.326" y1="-0.254" x2="68.834" y2="0.254" layer="51"/>
 <rectangle x1="70.866" y1="-0.254" x2="71.374" y2="0.254" layer="51"/>
 </package>
+<package name="1X01NS">
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1315,6 +1318,10 @@ design rules under a new name.</description>
 <element name="JP3" library="SparkFun-Connectors" package="1X29_NO_SILK" value="M29NO_SILK" x="10.16" y="11.43" smashed="yes"/>
 <element name="JP4" library="SparkFun-Connectors" package="1X29_NO_SILK" value="M29NO_SILK" x="10.16" y="8.89" smashed="yes"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.02" y="2.54"/>
+<element name="JP65" library="SparkFun-Connectors" package="1X01NS" value="M01SMDNS" x="81.28" y="60.96"/>
+<element name="JP66" library="SparkFun-Connectors" package="1X01NS" value="M01SMDNS" x="10.16" y="60.96"/>
+<element name="JP67" library="SparkFun-Connectors" package="1X01NS" value="M01SMDNS" x="10.16" y="5.08"/>
+<element name="JP68" library="SparkFun-Connectors" package="1X01NS" value="M01SMDNS" x="81.28" y="5.08"/>
 </elements>
 <signals>
 <signal name="N$5">
@@ -2212,6 +2219,26 @@ design rules under a new name.</description>
 <wire x1="73.66" y1="8.89" x2="76.2" y2="8.89" width="0.8128" layer="16"/>
 <wire x1="76.2" y1="8.89" x2="78.74" y2="8.89" width="0.8128" layer="16"/>
 <wire x1="78.74" y1="8.89" x2="81.28" y2="8.89" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$65">
+<contactref element="S2" pad="P1"/>
+<contactref element="JP65" pad="1"/>
+<wire x1="81.28" y1="60.96" x2="86.36" y2="60.96" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$66">
+<contactref element="S1" pad="P1"/>
+<contactref element="JP66" pad="1"/>
+<wire x1="10.16" y1="60.96" x2="5.08" y2="60.96" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$67">
+<contactref element="S3" pad="P1"/>
+<contactref element="JP67" pad="1"/>
+<wire x1="10.16" y1="5.08" x2="5.08" y2="5.08" width="0.8128" layer="16"/>
+</signal>
+<signal name="N$68">
+<contactref element="S4" pad="P1"/>
+<contactref element="JP68" pad="1"/>
+<wire x1="81.28" y1="5.08" x2="86.36" y2="5.08" width="0.8128" layer="16"/>
 </signal>
 </signals>
 </board>
