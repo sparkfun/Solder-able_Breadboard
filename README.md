@@ -1,7 +1,7 @@
 Solder-able Breadboard
 =======================
 
-[![Solder-able Breadboard](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/2/0/7/0/12070-01_medium.jpg) 
+[![Solder-able Breadboard](https://cdn.sparkfun.com/assets/parts/8/6/7/7/12070-01.jpg) 
 *Solder-able Breadboard(PRT-12070)*](https://www.sparkfun.com/products/12070)
 
 This is a bare pcb that is the same size as a regular breadboard, along with the same connections and power rails.
